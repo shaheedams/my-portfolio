@@ -1,0 +1,138 @@
+@use "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+@layer base {
+    a {
+        text-decoration: none;
+
+        &:hover {
+            color: var(--primary);
+        }
+
+        @apply transition delay-50 duration-300 ease-in-out
+    }
+}
+
+@theme {
+    --color-msprimary: #E2FF55;
+    --color-msblack: #000000;
+    --color-msgray: #898989;
+    --color-mswhite: #FFFFFF;
+    --bg-msprimary: #E2FF55;
+    --bg-msblack: #000000;
+    --bg-msgray: #898989;
+    --bg-mswhite: #FFFFFF;
+    --text-16: 16px;
+    --text-18: 18px;
+    --text-20: 20px;
+    --text-22: 22px;
+    --text-24: 24px;
+    --text-26: 26px;
+    --text-28: 28px;
+    --text-30: 30px;
+    --text-32: 32px;
+    --text-34: 34px;
+}
+
+@utility ms-container {
+    max-width: 1336px;
+    margin: 0 auto;
+    padding: 0 32px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+@utility ms-btn-primary {
+    @apply p-[20px] bg-msprimary text-msblack text-16 font-semibold rounded-[6px] border border-transparent hover:bg-[#d4ff01] transition delay-50 duration-600 ease-in-out inline-block
+}
+
+@utility ms-btn-secondary {
+    @apply p-[20px] bg-msblack text-msprimary text-16 font-semibold rounded-[6px] border border-[#E2FF55] transition delay-50 duration-600 ease-in-out hover:bg-msprimary hover:text-msblack hover:border-transparent inline-block
+}
+
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --primary: #E2FF55;
+    --gray: #898989;
+}
+
+
+body {
+    font-size: 1rem;
+    font-family: "Sora", sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.myName {
+    position: relative;
+}
+
+.myName::after {
+    content: '';
+    width: 158px;
+    height: 3px;
+    background-color: var(--primary);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ms-btn span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.ms-btn span svg path {
+    transition: all;
+    transition-duration: .6s;
+    transition-delay: 50ms;
+    transition-timing-function: ease-in-out;
+}
+
+.ms-btn-secondary:hover span svg path {
+    stroke: var(--black);
+}
+
+%headingBorder {
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    background-color: var(--primary);
+    position: relative;
+}
+
+.text-wrapper {
+    position: relative;
+    text-transform: uppercase;
+
+    h2 {
+        color: var(--black);
+        -webkit-text-stroke: 1px var(--primary);
+        paint-order: stroke fill;
+        opacity: 0.5;
+    }
+
+    .subText {
+        letter-spacing: 0.1em;
+        position: absolute;
+        width: 100%;
+        bottom: 26px;
+    }
+
+    .subText::after {
+        @extend %headingBorder;
+        bottom: 10px;
+        left: 8px;
+    }
+
+    .subText::before {
+        @extend %headingBorder;
+        bottom: 10px;
+        right: 8px;
+    }
+}
