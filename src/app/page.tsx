@@ -7,20 +7,22 @@ import Projects from "../components/projects/page";
 import Services from "../components/services/page";
 import Skills from "../components/skills/page";
 import Slider from "../components/slider/page";
+import CommingSoon from "../components/utility/commingSoon";
 
 
 export default function Home() {
   return (
     <>
+      <CommingSoon />
       <Header />
       <Hero />
-       <About />
-      {/*<Services />
+      <About />
+      <Services />
       <Slider />
       <Experience />
       <Skills />
       <Projects />
-      <Contact /> */}
+      <Contact />
     </>
   );
 }

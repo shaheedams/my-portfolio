@@ -2,11 +2,13 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className='border-b border-msprimary'>
+    <header className='border-b border-msprimary sticky top-0 bg-msblack z-40'>
       <div className="ms-container">
         <div className="flex items-center justify-between py-5">
           <div className="logo">
-            <Image src="/logo-ms-white.svg" alt="logo" width="40" height="48" />
+            <a href="#">
+              <Image src="/logo-ms-white.svg" alt="logo" width="40" height="48" />
+            </a>
           </div>
           <div className="links flex gap-[25px]">
             <a className='text-16 font-semibold' href="#">Home</a>
