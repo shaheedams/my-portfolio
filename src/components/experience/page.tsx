@@ -11,12 +11,12 @@ const Experience = () => {
         points: ["Work closely with stakeholders to gather requirements and translate them into technical specifications, ensuring alignment with business objectives.", "Create and implement scalable web applications using modern frameworks such as React, Next.js, Node.js, Express.js and MongoDB, ensuring responsive design and optimal performance across devices."]
       }, {
         company: "The Sparks Foundation",
-        role: "Intern Full-Stack Developer",
+        role: "Intern - Full-Stack Developer",
         duration: "May 2021 - Jun 2021",
         points: ["Worked as an intern,  Created and deployed a banking web application with certain functions like transferring money , showing Transaction details , balance, User details using MERN stack."]
       }, {
         company: "Exposys Data Labs",
-        role: "Intern Web Developer",
+        role: "Intern - Web Developer",
         duration: "Apr 2021 - May 2021",
         points: ["Developed a website, Turn design of the pages and specific components into a functional website using HTML, CSS, JavaScript."]
       }
