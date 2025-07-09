@@ -5,7 +5,7 @@ const Skills = () => {
     const skillsArr: string[] = ["HTML", "CSS", "Scss", "Javascript", "Typescript", "React", "Next.js", "Node.js", "Express.js", "Mongo DB", "JQuery", "GSAP", "SWiper", "GIT", "jira", "VS CODE", "GIT hub"];
 
     return (
-        <section id="Skills">
+        <section id="Skills" className="mainSection">
             <div className="ms-container mb-[100px]">
                 <Heading name="Tech Stack" />
                 <div className="skillsContainer text-center">

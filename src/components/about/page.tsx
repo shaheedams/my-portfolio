@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const About = () => {
     return (
-        <section id="AboutMe">
+        <section id="AboutMe" className="mainSection">
             <div className="ms-container mb-[100px]">
                 <Heading name="About Me" />
                 <div className="flex gap-[76px] w-full font-extralight justify-between">
@@ -30,14 +30,14 @@ const About = () => {
                         </div>
                     </div>
                     <div className="aboutRight text-2xl w-[60%]">
-                        <p className="mb-5">Detail-oriented Full Stack Web Developer with over 3 years of experience in designing and
+                        <p className="mb-5">Detail-oriented <strong>Full Stack Web Developer</strong>  with over 3 years of experience in designing and
                             developing robust web applications. Skilled in both front-end and back-end technologies, with a
                             strong focus on creating efficient, scalable, and user-centric solutions.</p>
                         <p className="mb-5">I excel at building strong stakeholder relationships and driving end-to-end project execution with a focus on application modernization.</p>
                         <h6 className="text-msprimary mb-2">Certification / Awards:</h6>
                         <ul className="list-disc">
-                            <li className="ml-[25px]">Received the &quot;Achiever of the Quarter&quot; Award for delivering the CMS, R.R. Donnelley.</li>
-                            <li className="ml-[25px]">Received the &quot;Innovator&quot; Award for developing the Tracker, R.R. Donnelley.</li>
+                            <li className="ml-[25px]">Received the <strong>&quot;Achiever of the Quarter&quot;</strong> Award for delivering the CMS, R.R. Donnelley.</li>
+                            <li className="ml-[25px]">Received the <strong>&quot;Innovator&quot;</strong> Award for developing the Tracker, R.R. Donnelley.</li>
                         </ul>
                     </div>
                 </div>

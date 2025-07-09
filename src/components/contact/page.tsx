@@ -2,7 +2,7 @@ import Heading from "../utility/heading";
 
 const Contact = () => {
     return (
-        <section id="Contact">
+        <section id="Contact" className="mainSection">
             <div className="ms-container mb-[100px]">
                 <Heading name="Contact" />
                 <div className="grid grid-cols-12">

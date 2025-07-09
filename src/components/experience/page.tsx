@@ -5,10 +5,10 @@ const Experience = () => {
   const experienceArr = {
     experience: [
       {
-        company: "RR Donnelley",
+        company: "R.R. Donnelley",
         role: "Full-Stack Developer",
         duration: "March 2023 - Present",
-        points: ["Work closely with UX/UI designers, product managers, and other stakeholders to gather requirements and translate them into technical specifications, ensuring alignment with business objectives.", "Create and implement scalable web applications using modern frameworks such as React, Next.js, Node.js, and Express.js, ensuring responsive design and optimal performance across devices."]
+        points: ["Work closely with stakeholders to gather requirements and translate them into technical specifications, ensuring alignment with business objectives.", "Create and implement scalable web applications using modern frameworks such as React, Next.js, Node.js, Express.js and MongoDB, ensuring responsive design and optimal performance across devices."]
       }, {
         company: "The Sparks Foundation",
         role: "Intern Full-Stack Developer",
@@ -32,7 +32,7 @@ const Experience = () => {
 
 
   return (
-    <section id="Experience">
+    <section id="Experience" className="mainSection">
       <div className="ms-container mb-[100px]">
         <Heading name="Experience" />
         <div className="grid grid-cols-12 gap-[80px]">

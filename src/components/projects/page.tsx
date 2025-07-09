@@ -28,7 +28,7 @@ const Projects = () => {
     stack: "React, Redux, Express.js, MongoDB, JWT, React router, Node.js, Typescript."
   }, {
     image: "/landingPage.png",
-    heading: "Fiserv, Money network, Humana, Nasdaq, Cona, Worldpay, Global payments",
+    heading: "Leading brands",
     content: "Developed high-converting, responsive landing pages from scratch, focusing on user experience (UX), brand consistency, and lead generation goals for various clients.",
     subHeading: "LANDING PAGES",
     link: "#",
@@ -36,7 +36,7 @@ const Projects = () => {
   },];
 
   return (
-    <section id="Projects">
+    <section id="Projects" className="mainSection">
       <div className="ms-container mb-[100px]">
         <Heading name="Projects" />
         <div className="projectsConatiner">

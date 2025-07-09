@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className='border-b border-msprimary sticky top-0 bg-msblack z-40'>
+    <header className='border-b border-msprimary sticky top-0 bg-msblack z-40 mainSection'>
       <div className="ms-container">
         <div className="flex items-center justify-between py-5">
           <div className="logo">

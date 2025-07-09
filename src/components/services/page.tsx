@@ -3,7 +3,7 @@ import ServiceCard from "../utility/serviceCard";
 
 const Services = () => {
     return (
-        <section id="Services">
+        <section id="Services" className="mainSection">
             <div className="ms-container mb-[200px]">
                 <Heading name="Services" />
                 <div className="servicesCards flex gap-[20px]">

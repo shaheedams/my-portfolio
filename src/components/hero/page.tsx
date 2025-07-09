@@ -3,7 +3,7 @@ import BtnSecondary from "../utility/btnSrecondary";
 
 const Hero = () => {
   return (
-    <section id="Hero">
+    <section id="Hero" className="mainSection">
       <div className="ms-container">
         <div className="heroContainer w-1/2 my-[100px]">
           <div className="helloText text-20 font-semibold">Hi There, I&apos;m</div>
