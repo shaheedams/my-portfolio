@@ -21,7 +21,7 @@ const ProjectCard = ({ image, heading, subHeading, content, stack, link }: Proje
                 <h5 className="font-normal text-[40px] mb-2">{heading}</h5>
                 <p className="mb-2 font-light text-base">{content}</p>
                 <p className="font-light text-base mb-[40px]"><span className="text-msprimary">Tech stack: </span>{stack}</p>
-                {/* <BtnSecondary name="View project" pathLink={link} isDownload={false}/> */}
+                {/* <BtnSecondary name="View project" pathLink={link} isDownload={false}/>  */}
             </div>
 
         </div>
