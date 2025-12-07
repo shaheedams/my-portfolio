@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BtnSecondary from "./btnSrecondary";
+// import BtnSecondary from "./btnSrecondary";
 
 interface ProjectCardType {
     image: string,
@@ -10,7 +10,7 @@ interface ProjectCardType {
     stack: string,
 }
 
-const ProjectCard = ({ image, heading, subHeading, content, stack, link }: ProjectCardType) => {
+const ProjectCard = ({ image, heading, subHeading, content, stack }: ProjectCardType) => {
     return (
         <div className="projectCard p-[30px] border-1 rounded-md flex items-center mb-[40px] gap-[40px]">
             <div className="w-[40%]">
