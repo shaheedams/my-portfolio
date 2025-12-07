@@ -30,8 +30,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="aboutRight text-2xl w-[60%]">
-                        <p className="mb-5">Detail-oriented <strong>Full Stack Web Developer</strong>  with over 3 years of experience in designing and
-                            developing robust web applications. Skilled in both front-end and back-end technologies, with a
+                        <p className="mb-5">Detail-oriented <strong>Full Stack Web Developer</strong>  with over 3 years of experience in developing robust web applications. Skilled in both front-end and back-end technologies, with a
                             strong focus on creating efficient, scalable, and user-centric solutions.</p>
                         <p className="mb-5">I excel at building strong stakeholder relationships and driving end-to-end project execution with a focus on application modernization.</p>
                         <h6 className="text-msprimary mb-2">Certification / Awards:</h6>
@@ -45,5 +44,6 @@ const About = () => {
         </section>
     )
 }
+
 
 export default About;
