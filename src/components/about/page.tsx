@@ -30,13 +30,12 @@ const About = () => {
                         </div>
                     </div>
                     <div className="aboutRight text-2xl w-[60%]">
-                        <p className="mb-5">Detail-oriented <strong>Full Stack Web Developer</strong>  with over 3 years of experience in developing robust web applications. Skilled in both front-end and back-end technologies, with a
-                            strong focus on creating efficient, scalable, and user-centric solutions.</p>
-                        <p className="mb-5">I excel at building strong stakeholder relationships and driving end-to-end project execution with a focus on application modernization.</p>
+                        <p className="mb-5">Detail-oriented <strong>Full Stack Developer</strong> with over 3+ years of experience in developing high-performance web applications.</p>
+                        <p className="mb-5">Strong background in front-end frameworks, backend API development and passionate about writing clean code, collaborating with cross-functional teams to deliver production-ready applications.</p>
                         <h6 className="text-msprimary mb-2">Certification / Awards:</h6>
                         <ul className="list-disc">
-                            <li className="ml-[25px]">Received the <strong>&quot;Achiever of the Quarter&quot;</strong> Award for delivering the CMS, R.R. Donnelley.</li>
-                            <li className="ml-[25px]">Received the <strong>&quot;Innovator&quot;</strong> Award for developing the Tracker, R.R. Donnelley.</li>
+                            <li className="ml-[25px]">Received the <strong>&quot;Achiever of the Quarter&quot;</strong> Award for best performance, R.R. Donnelley - <strong>(2024, 2026)</strong></li>
+                            <li className="ml-[25px]">Received the <strong>&quot;Rising Star of the Year&quot;</strong> Award for outstanding work in the Tracker, R.R. Donnelley - <strong>(2025)</strong><</li>
                         </ul>
                     </div>
                 </div>
@@ -47,3 +46,4 @@ const About = () => {
 
 
 export default About;
+
