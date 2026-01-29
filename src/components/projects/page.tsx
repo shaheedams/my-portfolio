@@ -15,24 +15,24 @@ const Projects = () => {
   const projectsArr: projectTypes[] = [{
     image: "/cms.png",
     heading: "Content management system",
-    content: "CMS is a software platform used to handle changes in website content creation, enabling multiple authors to develop, update and export websites with the help of our web application.",
+    content: "Developed a comprehensive content management platform enabling multiple authors to create, update, and export website content. Built dynamic content creation interface with real time validation and preview functionality.",
     subHeading: "CMS",
     link: "#",
-    stack: "Next.js, Redux, Express.js, MongoDB, JWT, MUI, Node.js, Typescript."
+    stack: "Next.js, Node.js, Typescript, Express.js, MongoDB, JWT, MUI, Redux."
   }, {
     image: "/tracker.png",
     heading: "Work management system",
-    content: "Tracker is a web application used to handle employees day to day tasks, managing clients and projects, monitoring hours utilized by a person and total hours to complete a task.",
+    content: "Built a comprehensive task and project management application for employee productivity tracking. Implemented task assignment, status tracking, time logging, project timeline management features and role-based access control (RBAC).",
     subHeading: "TRACKER",
     link: "#",
-    stack: "React, Redux, Express.js, MongoDB, JWT, React router, Node.js, Typescript."
+    stack: "React.js, Node.js, Typescript, Express.js, MongoDB, JWT, MUI, Redux."
   }, {
     image: "/landingPage.png",
-    heading: "Leading brands",
-    content: "Developed high-converting, responsive landing pages from scratch, focusing on user experience (UX), brand consistency, and lead generation goals for various clients.",
+    heading: "Landing Pages (B2B/B2C)",
+    content: "Developed high-converting, responsive landing pages for multiple clients from design mockups to production. Implemented smooth animations using GSAP and complex UI functionality.",
     subHeading: "LANDING PAGES",
     link: "#",
-    stack: "HTML, CSS, Javascript, Jquery, swiper.js, GSAP."
+    stack: "HTML, CSS, Javascript, Jquery, swiper.js, GSAP, Chart.js, Apex chat, SCSS, Animations."
   },];
 
   return (
