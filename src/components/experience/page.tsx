@@ -8,7 +8,7 @@ const Experience = () => {
         company: "R.R. Donnelley",
         role: "Full-Stack Developer",
         duration: "March 2023 - Present",
-        points: ["Work closely with stakeholders to gather requirements and translate them into technical specifications, ensuring alignment with business objectives.", "Developed responsive, user-centric UI components in React.js and Next.js, ensuring 95%+ cross-device compatibility and optimal performance across all screen sizes.", "Developed robust backend APIs using Node.js and Express.js, implementing RESTful endpoints with MongoDB for efficient data management and retrieval.", "Optimized application performance through lazy loading, code splitting, state management optimization, and database query optimization, improving load times by 35%."]
+        points: ["Architected responsive UI components using React.js and Next.js, achieving 95%+ crossdevice compatibility across all screen sizes.", "Engineered robust RESTful APIs with Node.js and Express.js, utilizing MongoDB for efficient data management and retrieval.", "Optimized application performance via lazy loading, code splitting, and database query optimization, resulting in a 35% reduction in load times.", "Standardized code quality by leading peer reviews and implementing automated testing strategies to minimize production bugs.", "Orchestrated stakeholder requirement gathering sessions to translate business objectives into high-precision technical specifications."]
       }, {
         company: "The Sparks Foundation",
         role: "Intern - Full-Stack Developer",

@@ -2,7 +2,7 @@ import Heading from "../utility/heading";
 
 const Skills = () => {
 
-    const skillsArr: string[] = ["HTML", "CSS", "Scss", "Javascript", "Typescript", "React", "Next.js", "Node.js", "Express.js", "Mongo DB", "JQuery", "GSAP", "SWiper", "GIT", "jira", "VS CODE", "GIT hub"];
+    const skillsArr: string[] = ["HTML", "CSS", "Scss", "Javascript", "Typescript", "React", "Next.js", "Node.js", "Express.js", "RabbitMQ", "Redis", "Apis", "Mongo DB", "JQuery", "GSAP", "SWiper", "GIT", "jira", "VS CODE", "GIT hub"];
 
     return (
         <section id="Skills" className="mainSection">

@@ -14,7 +14,7 @@ const About = () => {
                         </div>
                         <div className="getInTouch flex gap-[40px] mt-[76px]">
                             <div className="resumeDownload">
-                                <BtnSecondary pathLink="/mohamed_shaheed_cv_resume.pdf" name="Download CV" isDownload={true}/>
+                                <BtnSecondary pathLink="/mohamed_shaheed_resume.pdf" name="Download CV" isDownload={true} />
                             </div>
                             <div className="socialLinks flex gap-5 items-center">
                                 <a href="https://www.linkedin.com/in/mohamed-shaheed-a-9497731b3" target="_blank" rel="noopener noreferrer">
@@ -30,8 +30,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="aboutRight text-2xl w-[60%]">
-                        <p className="mb-5">Detail-oriented <strong>Full Stack Developer</strong> with over 3+ years of experience in developing high-performance web applications.</p>
-                        <p className="mb-5">Strong background in front-end frameworks, backend API development and passionate about writing clean code, collaborating with cross-functional teams to deliver production-ready applications.</p>
+                        <p className="mb-5">Full Stack Developer with over 3+ years of experience specializing in high-performance web applications using the Next.js, MERN stack and TypeScript.</p>
+                        <p className="mb-5">Expert in frontend frameworks and backend API development, with a proven ability to deliver production-ready code through cross-functional collaboration.</p>
+                        <p className="mb-5">Focused on writing clean, scalable code that significantly improves user engagement and operational efficiency.</p>
                         <h6 className="text-msprimary mb-2">Certification / Awards:</h6>
                         <ul className="list-disc">
                             <li className="ml-[25px]">Received the <strong>&quot;Achiever of the Quarter&quot;</strong> Award for best performance, R.R. Donnelley - <strong>(2024, 2026)</strong></li>
