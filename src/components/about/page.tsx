@@ -14,7 +14,7 @@ const About = () => {
                         </div>
                         <div className="getInTouch flex gap-[40px] mt-[76px]">
                             <div className="resumeDownload">
-                                <BtnSecondary pathLink="/mohamed_shaheed_resume.pdf" name="Download CV" isDownload={true} />
+                                <BtnSecondary pathLink="/mohamed_shaheed_A_resume.pdf" name="Download CV" isDownload={true} />
                             </div>
                             <div className="socialLinks flex gap-5 items-center">
                                 <a href="https://www.linkedin.com/in/mohamed-shaheed-a-9497731b3" target="_blank" rel="noopener noreferrer">
