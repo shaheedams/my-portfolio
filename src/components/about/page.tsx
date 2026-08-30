@@ -30,7 +30,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="aboutRight text-2xl w-[60%]">
-                        <p className="mb-5">Full Stack Developer with over 3+ years of experience specializing in high-performance web applications using the Next.js, MERN stack and TypeScript.</p>
+                        <p className="mb-5">Full Stack Developer with over 3.5+ years of experience specializing in high-performance web applications using the Angular, Express.js, MongoDB and TypeScript.</p>
                         <p className="mb-5">Expert in frontend frameworks and backend API development, with a proven ability to deliver production-ready code through cross-functional collaboration.</p>
                         <p className="mb-5">Focused on writing clean, scalable code that significantly improves user engagement and operational efficiency.</p>
                         <h6 className="text-msprimary mb-2">Certification / Awards:</h6>
