@@ -8,17 +8,7 @@ const Experience = () => {
         company: "R.R. Donnelley",
         role: "Full-Stack Developer",
         duration: "March 2023 - Present",
-        points: ["Architected responsive UI components using React.js and Next.js, achieving 95%+ crossdevice compatibility across all screen sizes.", "Engineered robust RESTful APIs with Node.js and Express.js, utilizing MongoDB for efficient data management and retrieval.", "Optimized application performance via lazy loading, code splitting, and database query optimization, resulting in a 35% reduction in load times.", "Standardized code quality by leading peer reviews and implementing automated testing strategies to minimize production bugs.", "Orchestrated stakeholder requirement gathering sessions to translate business objectives into high-precision technical specifications."]
-      }, {
-        company: "The Sparks Foundation",
-        role: "Intern - Full-Stack Developer",
-        duration: "May 2021 - Jun 2021",
-        points: ["Worked as an intern,  Created and deployed a banking web application with certain functions like transferring money , showing Transaction details , balance, User details using MERN stack."]
-      }, {
-        company: "Exposys Data Labs",
-        role: "Intern - Web Developer",
-        duration: "Apr 2021 - May 2021",
-        points: ["Developed a website, Turn design of the pages and specific components into a functional website using HTML, CSS, JavaScript."]
+        points: ["Architected responsive UI components using Angular, achieving 95%+ crossdevice compatibility across all screen sizes.", "Engineered robust RESTful APIs with Node.js and Express.js, utilizing MongoDB for efficient data management and retrieval.", "Optimized application performance via lazy loading, code splitting, and database query optimization, resulting in a 35% reduction in load times.", "Standardized code quality by leading peer reviews and implementing automated testing strategies to minimize production bugs.", "Orchestrated stakeholder requirement gathering sessions to translate business objectives into high-precision technical specifications."]
       }
     ], education: [
       {
