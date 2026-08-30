@@ -35,6 +35,7 @@ const About = () => {
                         <p className="mb-5">Focused on writing clean, scalable code that significantly improves user engagement and operational efficiency.</p>
                         <h6 className="text-msprimary mb-2">Certification / Awards:</h6>
                         <ul className="list-disc">
+                             <li className="ml-[25px]">Received the <strong>&quot;Google AI Professional & Essentials&quot;</strong> Certificates from Google, Coursera</li>
                             <li className="ml-[25px]">Received the <strong>&quot;Achiever of the Quarter&quot;</strong> Award for best performance, R.R. Donnelley - <strong>(2024, 2026)</strong></li>
                             <li className="ml-[25px]">Received the <strong>&quot;Rising Star of the Year&quot;</strong> Award for outstanding work in the Tracker, R.R. Donnelley - <strong>(2025)</strong></li>
                         </ul>
