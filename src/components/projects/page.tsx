@@ -15,21 +15,21 @@ const Projects = () => {
   const projectsArr: projectTypes[] = [{
     image: "/cms.png",
     heading: "Content management system",
-    content: "Developed a comprehensive content management platform enabling multiple authors to create, update, and export website content. Built dynamic content creation interface with real time validation and preview functionality.",
+    content: "Developed a full-stack platform enabling multiauthor collaboration for content creation, updates, and exporting. Built a dynamic UI with real-time validation and preview functionality, reducing content publishing time by 60%",
     subHeading: "CMS",
     link: "#",
-    stack: "Next.js, Node.js, Typescript, Express.js, MongoDB, JWT, MUI, Redux."
+    stack: "Angular, Node.js, Typescript, Express.js, MongoDB, JWT, MUI, RxJs."
   }, {
     image: "/tracker.png",
     heading: "Work management system",
-    content: "Built a comprehensive task and project management application for employee productivity tracking. Implemented task assignment, status tracking, time logging, project timeline management features and role-based access control (RBAC).",
+    content: "Spearheaded the development of an employee productivity application featuring role-based access control (RBAC). Implemented real-time task status tracking, time logging, and project timeline management, improving tracking accuracy by 50%.",
     subHeading: "TRACKER",
     link: "#",
-    stack: "React.js, Node.js, Typescript, Express.js, MongoDB, JWT, MUI, Redux."
+    stack: "Angular, Node.js, Typescript, Express.js, MongoDB, JWT, MUI, RxJs."
   }, {
     image: "/landingPage.png",
     heading: "Landing Pages (B2B/B2C)",
-    content: "Developed high-converting, responsive landing pages for multiple clients from design mockups to production. Implemented smooth animations using GSAP and complex UI functionality.",
+    content: "Produced high-converting, responsive landing pages from initial design mockups to production. Integrated complex UI functionality and smooth animations using GSAP to enhance user experience.",
     subHeading: "LANDING PAGES",
     link: "#",
     stack: "HTML, CSS, Javascript, Jquery, swiper.js, GSAP, Chart.js, Apex chat, SCSS, Animations."
